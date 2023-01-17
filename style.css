@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: aliceblue;
+}
+#h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px dotted rgb(197, 186, 186);
+  cursor: pointer;
+}
+#p{
+    font-size: 2rem;
+    margin: 4px;
+    padding: 3px;
+    cursor: pointer;
+}
+nav{
+   height: 10vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom: 6px dashed grey;
+   position: relative;
+   top: 23px;
+}
+#s{
+    height: 35vh;
+    position: relative;
+    top: 55px;
+   border-top: 2px solid white;
+   /* border-bottom: 2px solid white; */
+}
+#s1{
+    height: 20vh;
+    position: relative;
+    top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px dotted rgb(237, 241, 237);
+    height: 23vh;
+}
+.form label{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 3px;
+}
+.guessV{
+    cursor: pointer;
+    height: 4vh;
+    width: 135px;
+    background-color: rgb(85, 83, 83);
+    margin: 7px;
+
+}
+.guessSubmit{
+    background-color: red;
+    height: 5vh;
+    width: 80px;
+    margin: 2px;
+    cursor: pointer;
+}
+.guessSubmit:hover{
+    background-color: green;
+}
+h2{
+    position: absolute;
+    top: 62px;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+#reload{
+    position: absolute;
+    top: 1px;
+    height: 33px;
+    width: 50px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 8px;
+    cursor: pointer;
+}
+#reload:hover{
+    color: black;
+    background-color: white;
+}
